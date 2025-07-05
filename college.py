@@ -86,7 +86,7 @@ category_summary.to_csv('category_sentiment_summary.csv')
 # ====================
 test_data['lr_predictions'] = lr_predictions
 test_data.to_csv('feedback_predictions.csv', index=False)
-print("\nPredictions saved to 'feedback_predictions.csv'.")
+print("\nPredictions saved to 'college_feedback_predictions.csv'.")
 
 # ====================
 # Confusion Matrices
